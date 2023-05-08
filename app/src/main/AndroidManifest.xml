@@ -10,7 +10,35 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Trakabum"
-        tools:targetApi="31" />
+        android:name=".SpotifyPlaygroundApplication"
+        android:theme="@style/Theme.Macchiato"
+        tools:targetApi="31">
+        <activity
+            android:name=".SpotifyImplicitLoginActivityImpl"
+            android:theme="@style/Theme.Macchiato"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="SpotifyPlaygroundApplication" android:host="spotify-auth"
+                    tools:ignore="AppLinkUrlError" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".DefaultActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Macchiato" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true"
+            android:theme="@style/Theme.Macchiato">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
 
 </manifest>
