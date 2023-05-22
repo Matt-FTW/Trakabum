@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- LATTE -->
+    <color name="latte_rosewater">#dc8a78</color> <!-- Rosewater -->
+    <color name="latte_flamingo">#dd7878</color> <!-- Flamingo -->
+    <color name="latte_pink">#ea76cb</color> <!-- Pink -->
+    <color name="latte_mauve">#8839ef</color> <!-- Mauve -->
+    <color name="latte_red">#d20f39</color> <!-- Red -->
+    <color name="latte_maroon">#e64553</color> <!-- Maroon -->
+    <color name="latte_peach">#fe640b</color> <!-- Peach -->
+    <color name="latte_yellow">#df8e1d</color> <!-- Yellow -->
+    <color name="latte_green">#40a02b</color> <!-- Green -->
+    <color name="latte_teal">#179299</color> <!-- Teal -->
+    <color name="latte_sky">#04a5e5</color> <!-- Sky -->
+    <color name="latte_sapphire">#209fb5</color> <!-- Sapphire -->
+    <color name="latte_blue">#1e66f5</color> <!-- Blue -->
+    <color name="latte_lavender">#7287fd</color> <!-- Lavender -->
+    <color name="latte_white_100">#4c4f69</color> <!-- Text -->
+    <color name="latte_white_200">#5c5f77</color> <!-- Subtext1 -->
+    <color name="latte_white_300">#6c6f85</color> <!-- Subtext0 -->
+    <color name="latte_white_400">#7c7f93</color> <!-- Overlay2 -->
+    <color name="latte_grey_100">#8c8fa1</color> <!-- Overlay1 -->
+    <color name="latte_grey_200">#9ca0b0</color> <!-- Overlay0 -->
+    <color name="latte_grey_300">#acb0be</color> <!-- Surface2 -->
+    <color name="latte_grey_400">#bcc0cc</color> <!-- Surface1 -->
+    <color name="latte_black_100">#ccd0da</color> <!-- Surface0 -->
+    <color name="latte_black_200">#eff1f5</color> <!-- Base -->
+    <color name="latte_black_300">#e6e9ef</color> <!-- Mantle -->
+    <color name="latte_black_400">#dce0e8</color> <!-- Crust -->
+
+    <!-- FRAPPÉ -->
+    <color name="frappe_rosewater">#f2d5cf</color> <!-- Rosewater -->
+    <color name="frappe_flamingo">#eebebe</color> <!-- Flamingo -->
+    <color name="frappe_pink">#f4b8e4</color> <!-- Pink -->
+    <color name="frappe_mauve">#ca9ee6</color> <!-- Mauve -->
+    <color name="frappe_red">#e78284</color> <!-- Red -->
+    <color name="frappe_maroon">#ea999c</color> <!-- Maroon -->
+    <color name="frappe_peach">#ef9f76</color> <!-- Peach -->
+    <color name="frappe_yellow">#e5c890</color> <!-- Yellow -->
+    <color name="frappe_green">#a6d189</color> <!-- Green -->
+    <color name="frappe_teal">#81c8be</color> <!-- Teal -->
+    <color name="frappe_sky">#99d1db</color> <!-- Sky -->
+    <color name="frappe_sapphire">#85c1dc</color> <!-- Sapphire -->
+    <color name="frappe_blue">#8caaee</color> <!-- Blue -->
+    <color name="frappe_lavender">#babbf1</color> <!-- Lavender -->
+    <color name="frappe_white_100">#c6d0f5</color> <!-- Text -->
+    <color name="frappe_white_200">#b5bfe2</color> <!-- Subtext1 -->
+    <color name="frappe_white_300">#a5adce</color> <!-- Subtext0 -->
+    <color name="frappe_white_400">#949cbb</color> <!-- Overlay2 -->
+    <color name="frappe_grey_100">#838ba7</color> <!-- Overlay1 -->
+    <color name="frappe_grey_200">#737994</color> <!-- Overlay0 -->
+    <color name="frappe_grey_300">#626880</color> <!-- Surface2 -->
+    <color name="frappe_grey_400">#51576d</color> <!-- Surface1 -->
+    <color name="frappe_black_100">#414559</color> <!-- Surface0 -->
+    <color name="frappe_black_200">#303446</color> <!-- Base -->
+    <color name="frappe_black_300">#292c3c</color> <!-- Mantle -->
+    <color name="frappe_black_400">#232634</color> <!-- Crust -->
+
+    <!-- MACCHIATO -->
+    <color name="macchiato_rosewater">#f4dbd6</color> <!-- Rosewater -->
+    <color name="macchiato_flamingo">#f0c6c6</color> <!-- Flamingo -->
+    <color name="macchiato_pink">#f5bde6</color> <!-- Pink -->
+    <color name="macchiato_mauve">#c6a0f6</color> <!-- Mauve -->
+    <color name="macchiato_red">#ed8796</color> <!-- Red -->
+    <color name="macchiato_maroon">#ee99a0</color> <!-- Maroon -->
+    <color name="macchiato_peach">#f5a97f</color> <!-- Peach -->
+    <color name="macchiato_yellow">#eed49f</color> <!-- Yellow -->
+    <color name="macchiato_green">#a6da95</color> <!-- Green -->
+    <color name="macchiato_teal">#8bd5ca</color> <!-- Teal -->
+    <color name="macchiato_sky">#91d7e3</color> <!-- Sky -->
+    <color name="macchiato_sapphire">#7dc4e4</color> <!-- Sapphire -->
+    <color name="macchiato_blue">#8aadf4</color> <!-- Blue -->
+    <color name="macchiato_lavender">#b7bdf8</color> <!-- Lavender -->
+    <color name="macchiato_white_100">#cad3f5</color> <!-- Text -->
+    <color name="macchiato_white_200">#b8c0e0</color> <!-- Subtext1 -->
+    <color name="macchiato_white_300">#a5adcb</color> <!-- Subtext0 -->
+    <color name="macchiato_white_400">#939ab7</color> <!-- Overlay2 -->
+    <color name="macchiato_grey_100">#8087a2</color> <!-- Overlay1 -->
+    <color name="macchiato_grey_200">#6e738d</color> <!-- Overlay0 -->
+    <color name="macchiato_grey_300">#5b6078</color> <!-- Surface2 -->
+    <color name="macchiato_grey_400">#494d64</color> <!-- Surface1 -->
+    <color name="macchiato_black_100">#363a4f</color> <!-- Surface0 -->
+    <color name="macchiato_black_200">#24273a</color> <!-- Base -->
+    <color name="macchiato_black_300">#1e2030</color> <!-- Mantle -->
+    <color name="macchiato_black_400">#181926</color> <!-- Crust -->
+
+    <!-- MOCHA -->
+    <color name="mocha_rosewater">#f5e0dc</color> <!-- Rosewater -->
+    <color name="mocha_flamingo">#f2cdcd</color> <!-- Flamingo -->
+    <color name="mocha_pink">#f5c2e7</color> <!-- Pink -->
+    <color name="mocha_mauve">#cba6f7</color> <!-- Mauve -->
+    <color name="mocha_red">#f38ba8</color> <!-- Red -->
+    <color name="mocha_maroon">#eba0ac</color> <!-- Maroon -->
+    <color name="mocha_peach">#fab387</color> <!-- Peach -->
+    <color name="mocha_yellow">#f9e2af</color> <!-- Yellow -->
+    <color name="mocha_green">#a6e3a1</color> <!-- Green -->
+    <color name="mocha_teal">#94e2d5</color> <!-- Teal -->
+    <color name="mocha_sky">#89dceb</color> <!-- Sky -->
+    <color name="mocha_sapphire">#74c7ec</color> <!-- Sapphire -->
+    <color name="mocha_blue">#89b4fa</color> <!-- Blue -->
+    <color name="mocha_lavender">#b4befe</color> <!-- Lavender -->
+    <color name="mocha_white_100">#cdd6f4</color> <!-- Text -->
+    <color name="mocha_white_200">#bac2de</color> <!-- Subtext1 -->
+    <color name="mocha_white_300">#a6adc8</color> <!-- Subtext0 -->
+    <color name="mocha_white_400">#9399b2</color> <!-- Overlay2 -->
+    <color name="mocha_grey_100">#7f849c</color> <!-- Overlay1 -->
+    <color name="mocha_grey_200">#6c7086</color> <!-- Overlay0 -->
+    <color name="mocha_grey_300">#585b70</color> <!-- Surface2 -->
+    <color name="mocha_grey_400">#45475a</color> <!-- Surface1 -->
+    <color name="mocha_black_100">#313244</color> <!-- Surface0 -->
+    <color name="mocha_black_200">#1e1e2e</color> <!-- Base -->
+    <color name="mocha_black_300">#181825</color> <!-- Mantle -->
+    <color name="mocha_black_400">#11111b</color> <!-- Crust -->
+</resources>

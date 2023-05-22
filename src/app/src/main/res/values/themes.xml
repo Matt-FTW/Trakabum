@@ -1,0 +1,72 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Latte" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/latte_lavender</item>
+        <item name="colorPrimaryVariant">@color/latte_teal</item>
+        <item name="colorOnPrimary">@color/latte_white_100</item>
+        <item name="android:textColor">@color/latte_white_100</item>
+        <item name="backgroundColor">@color/latte_black_200</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/latte_teal</item>
+        <item name="colorSecondaryVariant">@color/latte_sky</item>
+        <item name="colorOnSecondary">@color/latte_black_200</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <item name="android:fontFamily">@font/virgil</item>
+    </style>
+    <style name="Theme.Frappe" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/frappe_lavender</item>
+        <item name="colorPrimaryVariant">@color/frappe_teal</item>
+        <item name="colorOnPrimary">@color/frappe_white_100</item>
+        <item name="android:textColor">@color/frappe_white_100</item>
+        <item name="backgroundColor">@color/latte_black_200</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/frappe_teal</item>
+        <item name="colorSecondaryVariant">@color/frappe_sky</item>
+        <item name="colorOnSecondary">@color/frappe_black_200</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <item name="android:fontFamily">@font/virgil</item>
+    </style>
+    <style name="Theme.Macchiato" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/macchiato_black_100</item>
+        <item name="colorPrimaryVariant">@color/macchiato_teal</item>
+        <item name="colorOnPrimary">@color/macchiato_white_100</item>
+        <item name="android:textColor">@color/macchiato_white_100</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/macchiato_teal</item>
+        <item name="colorSecondaryVariant">@color/macchiato_sky</item>
+        <item name="colorOnSecondary">@color/macchiato_black_200</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <item name="android:fontFamily">@font/virgil</item>
+    </style>
+    <style name="Theme.Mocha" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/mocha_lavender</item>
+        <item name="colorPrimaryVariant">@color/mocha_teal</item>
+        <item name="colorOnPrimary">@color/mocha_white_100</item>
+        <item name="android:textColor">@color/mocha_white_100</item>
+        <item name="backgroundColor">@color/mocha_black_200</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/mocha_teal</item>
+        <item name="colorSecondaryVariant">@color/mocha_sky</item>
+        <item name="colorOnSecondary">@color/mocha_black_200</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <item name="android:fontFamily">@font/virgil</item>
+    </style>
+    <style name="Theme.Macchiato.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.Macchiato.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="Theme.Macchiato.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>
