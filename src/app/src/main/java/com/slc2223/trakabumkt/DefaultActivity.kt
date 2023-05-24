@@ -2,21 +2,25 @@ package com.slc2223.trakabumkt
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.slc2223.trakabumkt.databinding.ActivityDefaultBinding
 
 class DefaultActivity : AppCompatActivity() {
+    private lateinit var binding : ActivityDefaultBinding
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_default)
-        /*
-        button.setOnClickListener {
-            var albums = guardValidSpotifyApi(classBackTo = SpotifyImplicitLoginActivityImpl::class.java) { api ->
-                api.search.searchAlbum("Lateralus").items
-            }
+        binding = ActivityDefaultBinding.inflate(layoutInflater)
+        setContentView(binding.root)
+
+        binding.btnSearch.setOnClickListener {
+            var albums =
+                guardValidSpotifyApi(classBackTo = SpotifyImplicitLoginActivityImpl::class.java) { api ->
+                    api.search.searchAlbum(binding.txtAlbumName.text.toString()).items
+                }
 
             if (albums != null)
-                nombre.text = albums[0].artists[0].name
+                binding.lblAlbumName.text = albums[0].artists[0].name
         }
-        */
     }
 }
 
