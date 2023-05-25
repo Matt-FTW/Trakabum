@@ -15,7 +15,7 @@ class DefaultActivity : AppCompatActivity() {
         binding.btnSearch.setOnClickListener {
             var albums =
                 guardValidSpotifyApi(classBackTo = SpotifyImplicitLoginActivityImpl::class.java) { api ->
-                    api.search.searchAlbum(binding.txtAlbumName.text.toString()).items
+                    api.search.searchTrack(binding.txtAlbumName.text.toString()).items
                 }
 
             if (albums != null)
