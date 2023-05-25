@@ -32,7 +32,9 @@
 - [FAQ](#faq)
 - [Contributing](#contributing)
 - [Privacy Policy](#privacy-policy)
+- [Contact Information](#contact-information)
 - [License](#license)
+
 ## Description
 > How many times did you wanted to go back and continue with the last session of listening to your new discovered albums?
 
@@ -84,7 +86,6 @@ git clone https://github.com/Matt-FTW/Trakabum.git
 7. Follow artist by going into their names and clicking the heart button
 8. Enable notifications in the app settings to receive updates on new album releases.
 
-
 ## FAQ
 - **Will this app be available in the App Store?** For now, we dont plan to release Trakabum on the App Store, but if we recieve enough requests about it, we will.
 - **Can i have a tag for more than one list?** Yes, you can.
@@ -94,10 +95,11 @@ git clone https://github.com/Matt-FTW/Trakabum.git
 
 ## Contributing
 Contributions are welcome! If you have any ideas, suggestions, or bug reports, please create an issue or submit a pull request.
+
 ## Privacy Policy
 Trakabum does not store or collect any personal information. All user prefences are stored on the user's device in local storage.
 
-### Contact Information
+## Contact Information
 For any questions or concerns regarding the anything about this project, please send an email to support@trakabum.com.
 
 ## License
