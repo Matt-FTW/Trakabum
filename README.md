@@ -1,7 +1,7 @@
 
 <div align="center" style="margin: 30px;">
 <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
-  <img src="assets/Sketches/Trakabum Texto.png" style="width:550px;" align="center" />
+  <img src="assets/Trakabum Texto.png" style="width:550px;" align="center" />
 </a>
 
 # An <span style="color:#a6da95">Android</span> Album Tracker for the 21th Century
@@ -41,7 +41,7 @@
 > Did you want to remember how that album felt to you after you listened it?
 
 > Or you just want to keep track of everything you listen without having to remember everything inside your brain.
-<img src="assets/Sketches/Logo Trakabum.png" align="right"
+<img src="assets/Logo Trakabum.png" align="right"
      alt="Size Limit logo by Anton Lovchikov" width="260" height="268">
 
 Well, the answer to this questions is **Trakabum**.
