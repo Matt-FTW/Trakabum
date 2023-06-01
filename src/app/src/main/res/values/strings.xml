@@ -11,4 +11,11 @@
     <string name="menu_home">Home</string>
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
+    <string name="btnSearch">Buscar</string>
+    <string name="lblSearchingHeading">Busqueda Albumes</string>
+    <string name="txtAlbumNameHint">Escriba el nombre del album</string>
+    <string name="lblAppNameHeading">Trakabum</string>
+    <string name="lblAppDescription">Album Tracker \n Organize your Music</string>
+    <string name="btnSpotifyLoginAct">Spotify Login</string>
+    <string name="btnOfflineLoginAct">Offline Mode</string>
 </resources>

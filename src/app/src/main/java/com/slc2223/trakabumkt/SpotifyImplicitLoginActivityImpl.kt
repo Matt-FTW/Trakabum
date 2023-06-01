@@ -1,8 +1,7 @@
 package com.slc2223.trakabumkt
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
-import android.os.Bundle
+import android.widget.Toast
 import com.adamratzman.spotify.SpotifyImplicitGrantApi
 import com.adamratzman.spotify.SpotifyScope
 import com.adamratzman.spotify.auth.implicit.AbstractSpotifyAppImplicitLoginActivity
@@ -17,11 +16,11 @@ class SpotifyImplicitLoginActivityImpl : AbstractSpotifyAppImplicitLoginActivity
     override fun onSuccess(spotifyApi: SpotifyImplicitGrantApi) {
         val model = (application as SpotifyPlaygroundApplication).model
         model.credentialStore.setSpotifyApi(spotifyApi)
-        toast("Authentication via spotify-auth has completed. Launching TrackViewActivity..")
+        toast(this, "Authentication completed correctly!", Toast.LENGTH_LONG)
         startActivity(Intent(this, DefaultActivity::class.java))
     }
 
     override fun onFailure(errorMessage: String) {
-        toast("Auth failed: $errorMessage")
+        toast(this, "Auth failed: $errorMessage", Toast.LENGTH_LONG)
     }
 }

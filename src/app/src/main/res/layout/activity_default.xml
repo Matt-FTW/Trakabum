@@ -1,11 +1,10 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/drawer_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:theme="@style/Theme.Macchiato"
-    android:background="@color/macchiato_black_200">
+    android:background="@color/macchiato_black_200"
+    android:theme="@style/Theme.Macchiato">
 
 
     <com.google.android.material.textfield.TextInputLayout
@@ -24,16 +23,16 @@
             android:id="@+id/txtAlbumName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Escriba el nombre del album" />
+            android:hint="@string/txtAlbumNameHint" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/lblSearchingHeading"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="20dp"
-        android:text="Busqueda Albumes"
-        android:textSize="35dp"
+        android:text="@string/lblSearchingHeading"
+        android:textSize="35sp"
         app:layout_constraintBottom_toTopOf="@+id/textInputLayout"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -43,7 +42,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:text="Buscar"
+        android:text="@string/btnSearch"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textInputLayout" />
@@ -53,8 +52,50 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:textSize="25dp"
+        android:textSize="25sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnSearch" />
+
+    <TextView
+        android:id="@+id/lblAlbumYear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imgAlbumCover"
+        android:layout_width="207dp"
+        android:layout_height="226dp"
+        app:layout_constraintBottom_toTopOf="@+id/lblAlbumYear"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lblAlbumName"
+        app:srcCompat="@color/frappe_black_200" />
+
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        app:icon="@drawable/arrow_right"
+        app:iconSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imgAlbumCover"
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayout" />
+
+    <Button
+        android:id="@+id/btnPrevious"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        app:icon="@drawable/arrow_left"
+        app:iconSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imgAlbumCover"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayout" />
 </androidx.constraintlayout.widget.ConstraintLayout>

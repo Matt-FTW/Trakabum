@@ -9,7 +9,7 @@
     tools:context=".LoginActivity">
 
     <ImageView
-        android:id="@+id/logoLoginAct"
+        android:id="@+id/imgLogoLoginAct"
         android:layout_width="362dp"
         android:layout_height="560dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -19,10 +19,10 @@
         app:srcCompat="@drawable/logo" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/lblAppNameHeading"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Trakabum"
+        android:text="@string/lblAppNameHeading"
         android:textSize="60sp"
         android:theme="@style/Theme.Macchiato"
         app:layout_constraintEnd_toEndOf="parent"
@@ -30,17 +30,17 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/lblAppDescription"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Album Tracker \n Organize your Music"
+        android:text="@string/lblAppDescription"
         android:textSize="20sp"
         android:theme="@style/Theme.Macchiato"
         android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.508"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/logoLoginAct" />
+        app:layout_constraintTop_toTopOf="@+id/imgLogoLoginAct" />
 
     <Button
         android:id="@+id/btnSpotifyLoginAct"
@@ -49,13 +49,13 @@
         android:layout_marginStart="20dp"
         android:layout_marginEnd="20dp"
         android:layout_marginBottom="20dp"
-        android:text="Spotify Login"
+        android:text="@string/btnSpotifyLoginAct"
         android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         android:backgroundTint="@color/macchiato_green"
-        android:textSize="20dp"
+        android:textSize="20sp"
         android:textColor="@color/macchiato_black_100"/>
 
     <Button
@@ -65,12 +65,12 @@
         android:layout_marginStart="20dp"
         android:layout_marginEnd="20dp"
         android:layout_marginBottom="20dp"
-        android:text="Offline Mode"
+        android:text="@string/btnOfflineLoginAct"
         android:textAlignment="center"
         android:background="@drawable/button_border_settings"
         app:layout_constraintBottom_toTopOf="@+id/btnSpotifyLoginAct"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
-        android:textSize="20dp"
+        android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
