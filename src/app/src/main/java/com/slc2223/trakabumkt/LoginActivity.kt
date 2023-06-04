@@ -2,6 +2,8 @@ package com.slc2223.trakabumkt
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.Window
+import android.view.WindowManager
 import com.adamratzman.spotify.auth.implicit.startSpotifyImplicitLoginActivity
 import com.slc2223.trakabumkt.databinding.ActivityLoginBinding
 
@@ -16,10 +18,13 @@ class LoginActivity : AppCompatActivity() {
     /**
      * Initiates the Spotify authentication activity.
      * Creates the listener for the Spotify login button.
+     * @param savedInstanceState The saved instance state of the activity.
      */
     override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
+        this.supportRequestWindowFeature(Window.FEATURE_NO_TITLE)
+        this.window.setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN)
         setContentView(R.layout.activity_login)
+        super.onCreate(savedInstanceState)
         binding = ActivityLoginBinding.inflate(layoutInflater)
         setContentView(binding.root)
 

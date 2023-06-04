@@ -6,7 +6,6 @@
     android:background="@color/macchiato_black_200"
     android:theme="@style/Theme.Macchiato">
 
-
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/textInputLayout"
         android:layout_width="match_parent"

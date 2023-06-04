@@ -1,6 +1,6 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Theme.Latte" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+    <style name="Theme.Latte" parent="Theme.AppCompat">
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/latte_lavender</item>
         <item name="colorPrimaryVariant">@color/latte_teal</item>
@@ -15,6 +15,7 @@
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
         <item name="android:fontFamily">@font/virgil</item>
+        <item name="android:windowNoTitle">true</item>
     </style>
     <style name="Theme.Frappe" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         <!-- Primary brand color. -->
@@ -31,6 +32,7 @@
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
         <item name="android:fontFamily">@font/virgil</item>
+        <item name="android:windowNoTitle">true</item>
     </style>
     <style name="Theme.Macchiato" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         <!-- Primary brand color. -->
@@ -46,6 +48,7 @@
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
         <item name="android:fontFamily">@font/virgil</item>
+        <item name="android:windowNoTitle">true</item>
     </style>
     <style name="Theme.Mocha" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         <!-- Primary brand color. -->
@@ -62,11 +65,6 @@
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
         <item name="android:fontFamily">@font/virgil</item>
+        <item name="android:windowNoTitle">true</item>
     </style>
-    <style name="Theme.Macchiato.NoActionBar">
-        <item name="windowActionBar">false</item>
-        <item name="windowNoTitle">true</item>
-    </style>
-    <style name="Theme.Macchiato.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
-    <style name="Theme.Macchiato.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 </resources>

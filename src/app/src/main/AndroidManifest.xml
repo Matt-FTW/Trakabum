@@ -6,9 +6,9 @@
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/logo"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@drawable/logo"
         android:supportsRtl="true"
         android:name=".SpotifyPlaygroundApplication"
         android:theme="@style/Theme.Macchiato"
@@ -21,8 +21,7 @@
                 <action android:name="android.intent.action.VIEW" />
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
-                <data android:scheme="SpotifyPlaygroundApplication" android:host="spotify-auth"
-                    tools:ignore="AppLinkUrlError" />
+                <data android:scheme="SpotifyPlaygroundApplication" android:host="spotify-auth" tools:ignore="AppLinkUrlError" />
             </intent-filter>
         </activity>
         <activity
@@ -35,7 +34,6 @@
             android:theme="@style/Theme.Macchiato">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
