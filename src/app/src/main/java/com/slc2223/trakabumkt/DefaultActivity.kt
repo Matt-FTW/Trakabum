@@ -38,7 +38,7 @@ class DefaultActivity : AppCompatActivity() {
 
         binding.btnNext.setOnClickListener {
             if (albums?.isEmpty() == true || currentAlbumIndex + 1 >= albums?.count()!!) { // If there are no albums or the index is out of bounds
-                toast(this, "There are no more albums.", Toast.LENGTH_SHORT)
+                toast(this, "No hay mas albumes.", Toast.LENGTH_SHORT)
                 return@setOnClickListener
             }
             currentAlbumIndex++
@@ -48,7 +48,7 @@ class DefaultActivity : AppCompatActivity() {
 
         binding.btnPrevious.setOnClickListener {
             if (albums?.isEmpty() == true || currentAlbumIndex - 1 < 0) { // If there are no albums or the index is out of bounds
-                toast(this, "You have the first album so you cannot go lower on the results.", Toast.LENGTH_SHORT)
+                toast(this, "Has llegado al principio.", Toast.LENGTH_SHORT)
                 return@setOnClickListener
             }
             currentAlbumIndex--

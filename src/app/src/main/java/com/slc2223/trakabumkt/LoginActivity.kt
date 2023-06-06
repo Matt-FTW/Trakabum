@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Window
 import android.view.WindowManager
+import android.widget.Toast
 import com.adamratzman.spotify.auth.implicit.startSpotifyImplicitLoginActivity
 import com.slc2223.trakabumkt.databinding.ActivityLoginBinding
 
@@ -30,6 +31,10 @@ class LoginActivity : AppCompatActivity() {
 
         binding.btnSpotifyLoginAct.setOnClickListener {
             startSpotifyImplicitLoginActivity<SpotifyImplicitLoginActivityImpl>() // Starts the authentication activity of Spotify
+        }
+
+        binding.btnOfflineLoginAct.setOnClickListener {
+            toast(this, "Esta funcionalidad no esta implementada.", Toast.LENGTH_SHORT)
         }
     }
 }
